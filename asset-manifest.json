@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c9efc502.css",
-    "main.js": "/static/js/main.e742abfc.js",
+    "main.js": "/static/js/main.c5f98f6c.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/ram_surat.png": "/static/media/ram_surat.43307a948cd912a37209.png",
     "static/media/Ram_Surat_Resume.pdf": "/static/media/Ram_Surat_Resume.ff2797c8fed813ff3083.pdf",
     "index.html": "/index.html",
     "main.c9efc502.css.map": "/static/css/main.c9efc502.css.map",
-    "main.e742abfc.js.map": "/static/js/main.e742abfc.js.map",
+    "main.c5f98f6c.js.map": "/static/js/main.c5f98f6c.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9efc502.css",
-    "static/js/main.e742abfc.js"
+    "static/js/main.c5f98f6c.js"
   ]
 }
