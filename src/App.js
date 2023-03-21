@@ -1,10 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './Components/Navbar';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import Skills from './Pages/Skiils';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Portfolio</h1>
+      <Navbar/>
+      <Home/>
+      <About />
+      <Skills/>
+      <Projects/>
+      <Contact/>
     </div>
   );
 }
