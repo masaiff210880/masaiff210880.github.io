@@ -11,13 +11,14 @@ import {
   ListItem,
   ListIcon
 } from '@chakra-ui/react';
-import porfile from '../Components/Images/ram_surat.png'
 import { FaHandPointRight } from 'react-icons/fa'
+import Photo from '../Components/Photo';
 const About = () => {
   return (
-    <div id='about'>
+    <div id='about' className='about section'>
       <Container maxW={'4xl'} marginTop={100}>
       <Text
+              id='about' className='about section'
               as={'span'}
               fontSize={'4xl'}
               fontWeight={'bold'}
@@ -52,20 +53,7 @@ const About = () => {
             boxShadow={'2xl'}
             width={{md:'80%',lg:'80%'}}
             overflow={'hidden'}>
-          
-            <Image
-              transform="scale(1.0)"
-              alt={'Hero Image'}
-              fit={'cover'}
-              align={'center'}
-              w={{md:'100%',lg:'100%'}}
-              h={'100%'}
-              src={porfile}
-              transition="0.3s ease-in-out"
-                  _hover={{
-                    transform: 'scale(1.05)',
-                  }}
-            />
+            <Photo/>
           </Box>
         </Flex>
         <Stack flex={1} spacing={{ base: 10, md: 81 }} 

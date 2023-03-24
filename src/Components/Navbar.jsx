@@ -23,7 +23,7 @@ export default function Navbar() {
 
   return (
     <div id="nav-menu">
-      <Box bg={useColorModeValue("teal", "#1a202c")} px={4}>
+      <Box bg={useColorModeValue("#4299e1", "#1a202c")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
@@ -38,43 +38,45 @@ export default function Navbar() {
             fontSize={{ base: "lg", md: "lg", lg: "2xl" }}
             fontWeight={"bold"}
           >
-            <Box><Name/></Box>
+            <Box>
+              <Name />
+            </Box>
             <HStack
               as={"nav"}
               spacing={10}
               display={{ base: "none", md: "flex" }}
             >
               <Button className="nav-link home">
-                  <a href="#home">
-                    {" "}
-                    <b>Home</b>
-                  </a>
-                </Button>
+                <a href="#home">
+                  {" "}
+                  <b>Home</b>
+                </a>
+              </Button>
 
-                <Button className="nav-link about">
-                  <a href="#about">
-                    <b>About</b>
-                  </a>
-                </Button>
+              <Button className="nav-link about">
+                <a href="#about">
+                  <b>About</b>
+                </a>
+              </Button>
 
-                <Button className="nav-link skills">
-                  <a href="#skills">
-                    {" "}
-                    <b>Skills</b>
-                  </a>
-                </Button>
+              <Button className="nav-link skills">
+                <a href="#skills">
+                  {" "}
+                  <b>Skills</b>
+                </a>
+              </Button>
 
-                <Button className="nav-link projects">
-                  <a href="#projects">
-                    <b>Projects</b>
-                  </a>
-                </Button>
+              <Button className="nav-link projects">
+                <a href="#projects">
+                  <b>Projects</b>
+                </a>
+              </Button>
 
-                <Button className="nav-link contact">
-                  <a href="#contact">
-                    <b>Contact</b>
-                  </a>
-                </Button>
+              <Button className="nav-link contact">
+                <a href="#contact">
+                  <b>Contact</b>
+                </a>
+              </Button>
             </HStack>
           </HStack>
           <Flex alignItems={"center"} columnGap={5}>
@@ -95,7 +97,7 @@ export default function Navbar() {
               onClick={onButtonClick}
               size={["sm", "md"]}
               download="Ram_Surat_Resume"
-              id="resumeBtn"
+              id="resume-button-1 resume-button-2"
               className="nav-link resume"
             >
               <a
@@ -103,6 +105,7 @@ export default function Navbar() {
                 target="_blank"
                 rel="noreferrer"
                 download="Ram_Surat_Resume"
+                id="resume-link-1 resume-link-2"
               >
                 RESUME
               </a>
@@ -114,36 +117,36 @@ export default function Navbar() {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
               <Button className="nav-link home">
-                  <a href="#home">
-                    {" "}
-                    <b>Home</b>
-                  </a>
-                </Button>
+                <a href="#home">
+                  {" "}
+                  <b>Home</b>
+                </a>
+              </Button>
 
-                <Button className="nav-link home">
-                  <a href="#about">
-                    <b>About</b>
-                  </a>
-                </Button>
+              <Button className="nav-link home">
+                <a href="#about">
+                  <b>About</b>
+                </a>
+              </Button>
 
-                <Button className="nav-link skills">
-                  <a href="#skills">
-                    {" "}
-                    <b>Skills</b>
-                  </a>
-                </Button>
+              <Button className="nav-link skills">
+                <a href="#skills">
+                  {" "}
+                  <b>Skills</b>
+                </a>
+              </Button>
 
-                <Button className="nav-link projects">
-                  <a href="#projects">
-                    <b>Projects</b>
-                  </a>
-                </Button>
+              <Button className="nav-link projects">
+                <a href="#projects">
+                  <b>Projects</b>
+                </a>
+              </Button>
 
-                <Button className="nav-link contact">
-                  <a href="#contact">
-                    <b>Contact</b>
-                  </a>
-                </Button>
+              <Button className="nav-link contact">
+                <a href="#contact">
+                  <b>Contact</b>
+                </a>
+              </Button>
             </Stack>
           </Box>
         ) : null}
