@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.c9efc502.css",
-    "main.js": "/static/js/main.9acfe8d7.js",
+    "main.js": "/static/js/main.dfde0335.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/ram_surat.png": "/static/media/ram_surat.43307a948cd912a37209.png",
     "static/media/beauty.jpeg": "/static/media/beauty.cc95d34151a9dd9ae970.jpeg",
     "static/media/shoping.jpeg": "/static/media/shoping.e2ebd20164e6ceaa898a.jpeg",
     "static/media/Ram_Surat_Resume.pdf": "/static/media/Ram_Surat_Resume.a9c3518a13c08c461a86.pdf",
     "static/media/yaatra.jpeg": "/static/media/yaatra.fc44c9572b3b47b64279.jpeg",
+    "static/media/glamour.jpeg": "/static/media/glamour.cf750abfbfb1085aea47.jpeg",
     "index.html": "/index.html",
     "main.c9efc502.css.map": "/static/css/main.c9efc502.css.map",
-    "main.9acfe8d7.js.map": "/static/js/main.9acfe8d7.js.map",
+    "main.dfde0335.js.map": "/static/js/main.dfde0335.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9efc502.css",
-    "static/js/main.9acfe8d7.js"
+    "static/js/main.dfde0335.js"
   ]
 }
