@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c9efc502.css",
-    "main.js": "/static/js/main.0123ea2d.js",
+    "main.js": "/static/js/main.8adeebee.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
-    "static/media/ram_surat.png": "/static/media/ram_surat.43307a948cd912a37209.png",
     "static/media/beauty.jpeg": "/static/media/beauty.cc95d34151a9dd9ae970.jpeg",
     "static/media/shoping.jpeg": "/static/media/shoping.e2ebd20164e6ceaa898a.jpeg",
     "static/media/Ram_Surat_Resume.pdf": "/static/media/Ram_Surat_Resume.a9c3518a13c08c461a86.pdf",
@@ -11,11 +10,11 @@
     "static/media/glamour.jpeg": "/static/media/glamour.cf750abfbfb1085aea47.jpeg",
     "index.html": "/index.html",
     "main.c9efc502.css.map": "/static/css/main.c9efc502.css.map",
-    "main.0123ea2d.js.map": "/static/js/main.0123ea2d.js.map",
+    "main.8adeebee.js.map": "/static/js/main.8adeebee.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9efc502.css",
-    "static/js/main.0123ea2d.js"
+    "static/js/main.8adeebee.js"
   ]
 }
