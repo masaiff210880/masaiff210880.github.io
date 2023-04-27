@@ -11,20 +11,33 @@ import {
 } from "@chakra-ui/react";
 import resume from "../Components/Images/Ram_Surat_Resume.pdf";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
+import '../Components/Resume.css'
+import { NavLink } from 'react-router-dom';
 import { SlDocs } from "react-icons/sl";
 import "./Navbar.css";
 import Name from "./Name";
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const onButtonClick = () => {
-    window.open(resume);
-  };
+  // const onButtonClick = () => {
+  //   window.open(resume);
+  // };
+
+  function downloadFile1() {
+    window.open(
+      "https://drive.google.com/file/d/1BdJHHBNEZin6E__-EnygEWl4azkdnd0X/view?usp=sharing",
+      "_blank"
+    );
+    const link = document.createElement("a");
+    link.download = resume;
+    document.body.appendChild(link);
+    link.click();
+  }
 
   return (
     <div id="nav-menu">
-      <Box bg={useColorModeValue("#4299e1", "#1a202c")} px={4}>
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+      <Box bg={useColorModeValue("white", "#1a202c")} px={4}>
+        <Flex h={16} alignItems={"center"} justifyContent={{sm:"space-around",lg:"space-around"}}>
           <IconButton
             size={"md"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -79,37 +92,22 @@ export default function Navbar() {
               </Button>
             </HStack>
           </HStack>
-          <Flex alignItems={"center"} columnGap={5}>
+          <Flex alignItems={"center"} columnGap={2}>
             <Button
               onClick={toggleColorMode}
-              style={{ border: "1px solid gray", borderRadius: "10px" }}
             >
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
-            <Button
-              backgroundColor="teal"
-              _hover={{ bg: "#a891b7", color: "black" }}
-              color="white"
-              variant={"solid"}
-              colorScheme={"teal"}
-              mr={4}
-              leftIcon={<SlDocs />}
-              onClick={onButtonClick}
-              size={["sm", "md"]}
-              download="Ram_Surat_Resume"
-              id="resume-button-1 resume-button-2"
-              className="nav-link resume"
-            >
-              <a
-                href={resume}
-                target="_blank"
-                rel="noreferrer"
-                download="Ram_Surat_Resume"
-                id="resume-link-1 resume-link-2"
-              >
-                RESUME
-              </a>
-            </Button>
+            <NavLink to="https://drive.google.com/uc?export=download&id=1BdJHHBNEZin6E__-EnygEWl4azkdnd0X">
+            <button
+            id="resume-button-1"
+            className="nav-link resume"
+            onClick={downloadFile1}
+          >
+            <SlDocs/>
+            RESUME
+          </button>
+        </NavLink>
           </Flex>
         </Flex>
 

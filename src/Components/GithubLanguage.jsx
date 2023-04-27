@@ -40,7 +40,7 @@ import {
               zIndex: -1,
             }}
           >
-           GITHUB TOP LANGUAGES
+           TOP LANGUAGES
           </Text><br />
           <Image id="github-top-langs" src='https://github-readme-stats.vercel.app/api/top-langs/?username=masaiff210880' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
         </Container>

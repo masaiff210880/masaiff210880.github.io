@@ -87,43 +87,41 @@ const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlif
                 <Button
                  className="project-deployed-link"
                  onClick={handleLive}
-                  px={4}
-                  fontSize={"sm"}
-                  rounded={"full"}
-                  bg={"blue.400"}
-                  color={"white"}
-                  boxShadow={
-                    "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
-                  }
-                  _hover={{
-                    bg: "blue.500",
-                  }}
-                  _focus={{
-                    bg: "blue.500",
-                  }}
-                >
+                 px={6}
+                fontSize={"sm"}
+                rounded={"full"}
+                bgGradient="linear(to-r, pink.400, orange.400)"
+                color={"white"}
+                boxShadow={
+                  "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
+                }
+                _hover={{
+                  bg: "pink.500",
+                }}
+                _focus={{
+                  bg: "orange.500",
+                }}>
                   See in Live
                 </Button>
                 <Button
-                  className="project-github-link"
-                  onClick={handleCode}
-                  px={4}
-                  fontSize={"sm"}
-                  rounded={"full"}
-                  bg={"blue.400"}
-                  color={"white"}
-                  boxShadow={
-                    "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
-                  }
-                  _hover={{
-                    bg: "blue.500",
-                  }}
-                  _focus={{
-                    bg: "blue.500",
-                  }}
-                >
-                  View Code
-                </Button>
+                className="project-github-link"
+                onClick={handleCode}
+                px={6}
+                fontSize={"sm"}
+                rounded={"full"}
+                bgGradient="linear(to-r, pink.400, orange.400)"
+                color={"white"}
+                boxShadow={
+                  "0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)"
+                }
+                _hover={{
+                  bg: "pink.500",
+                }}
+                _focus={{
+                  bg: "orange.500",
+                }}>
+                View Code
+              </Button>
               </Stack>
             </Stack>
           </Flex>

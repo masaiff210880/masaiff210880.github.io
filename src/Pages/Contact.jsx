@@ -49,7 +49,7 @@ const Contact = () => {
               onClick={handleLinkedin}
             >
               <Center>
-                <Text id="contact-linkedin">Connct with Linkedin</Text>
+                <Text id="contact-linkedin">Connect with Linkedin</Text>
               </Center>
             </Button>
 
@@ -61,7 +61,7 @@ const Contact = () => {
               onClick={handleGithub}
             >
               <Center>
-                <Text id="contact-github">Connct with Github</Text>
+                <Text id="contact-github">Connect with Github</Text>
               </Center>
             </Button>
 

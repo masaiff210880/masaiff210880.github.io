@@ -10,6 +10,7 @@ import { SiReact } from 'react-icons/si'
 import yaatra from "../Components/Images/yaatra.jpeg";
 import beauty from '../Components/Images/beauty.jpeg'
 import shoping from '../Components/Images/shoping.jpeg'
+import glamour from '../Components/Images/glamour.jpeg'
 import Github from "../Components/Github";
 import GithubStreak from "../Components/GithubStreak";
 import GithubStateCard from "../Components/GithubStateCard";
@@ -64,16 +65,16 @@ const Projects = () => {
           cssIcon={SiNetlify}
           githubUrl="https://steady-genie-364aba.netlify.app"
           netlifyUrl="https://steady-genie-364aba.netlify.app"
-          banner={beauty}
+          banner={glamour}
         />
         <ProjectCard 
-          title="Shoping CRUD Application"
+          title="Shoping Application"
           discription="Shopping is an online platform where people can by-products and in this application has an admin page where the admin can add and edit any particular products."
           jsIcon={SiReact}
           htmlIcon={SiChakraui}
           cssIcon={SiNetlify}
           githubUrl="https://github.com/masai-course/fw21_0880_ramSurat/tree/master/unit-5/sprint-3/day-1/assignments/reactcrud-app"
-          netlifyUrl="https://radiant-kataifi-16042a.netlify.app"
+          netlifyUrl="https://radiant-kataifi-16042a.netlify.app/"
           banner={shoping}
         />
         <Github/>
