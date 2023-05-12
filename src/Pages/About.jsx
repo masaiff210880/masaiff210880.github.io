@@ -38,7 +38,7 @@ function TestimonialCard(props) {
       }
   const { name, role, content, avatar, index } = props;
   return (
-    <div id="about" className="about section">
+    <div id="about" className="about section" >
     <Flex
       boxShadow={"lg"}
       maxW={{ lg: "800px", md: "100%", base: "500px" }}
@@ -135,7 +135,7 @@ function TestimonialCard(props) {
 
 export default function About() {
   return (
-      <Container maxW={"4xl"} marginTop={25}>
+      <Container maxW={"4xl"} >
         <Text
           as={"span"}
           fontSize={"4xl"}

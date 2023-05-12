@@ -10,7 +10,7 @@ import {
     Link,
     Icon
   } from "@chakra-ui/react";
-const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlifyUrl,banner}) => {
+const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlifyUrl,banner,mongoose}) => {
     const handleLive=()=>{
         window.open(netlifyUrl)
       }
@@ -82,6 +82,15 @@ const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlif
                     borderRadius: "10px",
                   }}
                 />
+                 <Icon
+                 as={mongoose}
+                  style={{
+                    border: "1px solid gray",
+                    fontSize: "35px",
+                    padding: "4px",
+                    borderRadius: "10px",
+                  }}
+                />
               </div>
               <Stack direction={{ base: "column", md: "row" }} spacing={8}>
                 <Button
@@ -126,7 +135,7 @@ const ProjectCard = ({title,discription,jsIcon,htmlIcon,cssIcon,githubUrl,netlif
             </Stack>
           </Flex>
           <Flex flex={1}>
-            <Box borderRadius="xl" overflow="hidden" border={"1px solid gray"} height={{md:'280px',lg:'280px'}} marginTop={10}>
+            <Box borderRadius="xl" overflow="hidden" border={"1px solid gray"} height={{md:'280px',lg:'250px'}} marginTop={10}>
               <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
                 <Image
                   transform="scale(1.0)"
