@@ -35,7 +35,7 @@ export default function Github() {
             position: "absolute",
             bottom: 1,
             left: 0,
-            bg: "red.400",
+            bg: "blue.500",
             zIndex: -1,
           }}
         >

@@ -25,9 +25,10 @@ export default function Navbar() {
 
   function downloadFile1() {
     window.open(
-      "https://drive.google.com/file/d/1BdJHHBNEZin6E__-EnygEWl4azkdnd0X/view?usp=sharing",
+      "https://drive.google.com/file/d/1jDXEnaQHvXBycIeZGuZX1TEhb_hrLQl3/view?usp=sharing",
       "_blank"
     );
+    
     const link = document.createElement("a");
     link.download = resume;
     document.body.appendChild(link);
@@ -98,7 +99,7 @@ export default function Navbar() {
             >
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
-            <NavLink to="https://drive.google.com/uc?export=download&id=1BdJHHBNEZin6E__-EnygEWl4azkdnd0X">
+            <NavLink to="https://drive.google.com/uc?export=download&id=1jDXEnaQHvXBycIeZGuZX1TEhb_hrLQl3">
             <button
             id="resume-button-1"
             className="nav-link resume"

@@ -35,20 +35,20 @@ const Projects = () => {
             position: "absolute",
             bottom: 1,
             left: 0,
-            bg: "red.400",
+            bg: "blue.500",
             zIndex: -1,
           }}
         >
           PROJECTS
         </Text>
         <ProjectCard
-          title="HealthCare"
-          discription="Healthcare is an online platform intended to provide authentic health and nutritional supplements. The company's platform provides a wide range of protein supplements, weight loss products."
+          title="HealthKart"
+          discription="HealthKart is an online platform intended to provide authentic health and nutritional supplements. The company's platform provides a wide range of protein supplements, weight loss products."
           jsIcon={SiReact}
           htmlIcon={SiChakraui}
           cssIcon={IoLogoNodejs}
           mongoose={DiMongodb}
-          githubUrl="https://github.com/bharat24862486/defeated-interest-8343"
+          githubUrl="https://github.com/masaiff210880/defeated-interest-8343"
           netlifyUrl="https://frontend-vinaykumar7580.vercel.app/"
           banner={healthcare}
         />
@@ -59,7 +59,7 @@ const Projects = () => {
           htmlIcon={SiChakraui}
           cssIcon={SiRedux}
           mongoose={RxVercelLogo}
-          githubUrl="https://medzplus.vercel.app/"
+          githubUrl="https://github.com/masaiff210880/-quick-jelly-9961"
           netlifyUrl="https://medzplus.vercel.app/"
           banner={medz}
         />
@@ -70,7 +70,7 @@ const Projects = () => {
           htmlIcon={SiHtml5}
           cssIcon={SiCss3}
           mongoose={SiNetlify}
-          githubUrl="https://github.com/faizan0505/flaky-suggestion-4282"
+          githubUrl="https://github.com/masaiff210880/flaky-suggestion-4282"
           netlifyUrl="https://joyful-begonia-5f548b.netlify.app/fw22_0277home.html"
           banner={yaatra}
         />
@@ -82,7 +82,7 @@ const Projects = () => {
           cssIcon={SiNetlify}
           mongoose={SiCss3}
           githubUrl="https://github.com/masaiff210880/posh-title-8378/tree/main/GLAMOUR_BEAUTY/glamourbeauty-app"
-          netlifyUrl="https://steady-genie-364aba.netlify.app/"
+          netlifyUrl="https://glamourbeauty-app.vercel.app/"
           banner={glamour}
         />
         <Github/>

@@ -28,7 +28,7 @@ const backgrounds = [
 function TestimonialCard(props) {
   function downloadFile1() {
         window.open(
-          "https://drive.google.com/file/d/1BdJHHBNEZin6E__-EnygEWl4azkdnd0X/view?usp=sharing",
+          "https://drive.google.com/file/d/1jDXEnaQHvXBycIeZGuZX1TEhb_hrLQl3/view?usp=sharing",
           "_blank"
         );
         const link = document.createElement("a");
@@ -121,7 +121,7 @@ function TestimonialCard(props) {
           transform: "scale(1.05)",
         }}
         />
-        <NavLink to="https://drive.google.com/uc?export=download&id=1BdJHHBNEZin6E__-EnygEWl4azkdnd0X">
+        <NavLink to="https://drive.google.com/uc?export=download&id=1jDXEnaQHvXBycIeZGuZX1TEhb_hrLQl3">
           <button id="resume-button-2" onClick={downloadFile1}>
           <SlDocs/>
             RESUME
@@ -148,7 +148,7 @@ export default function About() {
             position: "absolute",
             bottom: 1,
             left: 0,
-            bg: "red.400",
+            bg: "blue.500",
             zIndex: -1,
           }}
         >
@@ -161,7 +161,7 @@ export default function About() {
           direction={"column"}
           width={"full"}
           overflow={"hidden"}
-          height={"800px"}
+          height={"627px"}
         >
           <SimpleGrid
             columns={{ base: 1, xl: 1 }}

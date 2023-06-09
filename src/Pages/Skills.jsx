@@ -13,7 +13,7 @@ import { BsBootstrap } from 'react-icons/bs'
 const Skills = () => {
   return (
     <div id="skills">
-      <Container maxW={"4xl"} marginTop={"100px"}>
+      <Container maxW={"4xl"} marginTop={"-13px"}>
         <Text
           as={"span"}
           fontSize={"4xl"}
@@ -26,7 +26,7 @@ const Skills = () => {
             position: "absolute",
             bottom: 1,
             left: 0,
-            bg: "red.400",
+            bg: "blue.500",
             zIndex: -1,
           }}
         >
